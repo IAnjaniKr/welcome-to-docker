@@ -1,6 +1,6 @@
 
 # Sample Dockerfile
-FROM ubuntu:latest
+FROM ubuntu:24.10
 WORKDIR /app
 RUN ["apt-get","update"]
 CMD echo Hello World from Docker
